@@ -12,7 +12,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {
     "daisyui": "^4.12.14",

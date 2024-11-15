@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-spring/parallax": "^9.7.5",
     "@tailwindcss/typography": "^0.5.15",
     "next": "^15.0.3",
-    "react": "19.0.0-rc-b01722d5-20241114",
-    "react-dom": "19.0.0-rc-b01722d5-20241114",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-simple-typewriter": "^5.0.1"
   },
   "devDependencies": {

@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="text-7xl font-black">About Me</h1>
         <div className="py-14 text-2xl max-w-screen-sm">
           <p>
-              I&#39;m a
+              I'm a
               <a
                 className="text-bold"
                 href="https://uwaterloo.ca/future-students/programs/computing-and-financial-management"
@@ -19,7 +19,7 @@ const About = () => {
               on people's lives through technology.
           </p>
         <p><br/>
-            When I&#39;m not doing homework or working on fun projects, you can find me playing volleyball, badminton, or
+            When I'm not doing homework or working on fun projects, you can find me playing volleyball, badminton, or
             listening to music.
         </p>
         </div>

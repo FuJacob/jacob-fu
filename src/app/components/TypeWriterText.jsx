@@ -4,9 +4,9 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const TypeWriterText = () => {
   return (
-    <div className='h-12 flex justify-center'>
-       <h2 className="font-bold italic"><Typewriter
-            words={['University of Waterloo Student', 'Studying Computer Science & Finance (BCFM)', 'Graduating in \'29', 'Seeking Software Internships']}
+    <div className='h-12 flex justify-center mb-10'>
+       <h2 className="font-bold text-5xl text-primary"><Typewriter
+            words={['university of waterloo student', 'studying cs & finance', 'graduating in \'29', 'looking for software co-op']}
             loop={0}
             cursor
             cursorStyle="|"

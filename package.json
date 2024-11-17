@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^14.2.15",
     "@react-spring/parallax": "^9.7.5",
     "@tailwindcss/typography": "^0.5.15",
     "next": "^15.0.3",

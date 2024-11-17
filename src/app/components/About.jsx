@@ -1,10 +1,9 @@
 import React from "react";
-
 const About = () => {
   return (
     <>
       <div className="grid place-items-center text-center">
-        <h1 className="text-7xl font-black">About Me</h1>
+        <h1 className="text-7xl font-black" id="about">About Me</h1>
         <div className="py-14 text-2xl max-w-screen-sm">
           <p>
               I'm a

@@ -1,12 +1,16 @@
 import React from "react";
-import Resume from "./Resume"
+import Resume from "./Resume";
+
 const Navbar = ({
   title = "Jacob Fu",
   button1 = "Resume",
   button2 = "About",
 }) => {
   return (
-    <div className="navbar bg-base-100">
+    <div
+      className="navbar fixed bg-white/40 backdrop-blur-xl shadow-lg"
+      style={{ zIndex: 5 }}
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,10 +32,12 @@ const Navbar = ({
         </div>
         <a className="btn btn-ghost text-xl">{title}</a>
       </div>
-      <div className="menu-horizontal navbar-end ">
-          <a className="btn">{button2}</a>
-
-<Resume title='Resume' />      </div>
+      <div className="menu-horizontal navbar-end">
+        <a className="btn" href="#about">
+          {button2}
+        </a>
+        <Resume title="Resume" />
+      </div>
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from "react";
 import Questions from "./Questions";
-import Resume from "./Resume";
 import TypeWriterText from "./TypeWriterText";
 const Hero = () => {
   return (
@@ -12,10 +11,10 @@ const Hero = () => {
               <img src="avatar.jpg"></img>
             </div>
           </div>
+
           <h1 className="text-9xl font-black">Jacob Fu</h1>
           <TypeWriterText />
-          <Resume />
-          <p>click here ^</p>
+           <div> <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg" onClick={() => {window.open("JacobFu_Resume.pdf", "_blank")}}> <p className="text-2xl">Resume</p> </button></div>
           {/* <Questions /> */}
         </div>
       </div>

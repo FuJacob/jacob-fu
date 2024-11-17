@@ -1,6 +1,6 @@
 import React from "react";
 import Resume from "./Resume";
-
+import ThemeController from "./ThemeController";
 const Navbar = ({
   title = "Jacob Fu",
   button1 = "Resume",
@@ -8,10 +8,11 @@ const Navbar = ({
 }) => {
   return (
     <div
-      className="navbar fixed bg-white/40 backdrop-blur-xl shadow-lg"
+      className="navbar fixed var(--background)/40 backdrop-blur-xl shadow-lg"
       style={{ zIndex: 5 }}
     >
       <div className="navbar-start">
+        <ThemeController />
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg

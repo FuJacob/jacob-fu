@@ -29,7 +29,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="coffee">
+    <html lang="en" data-theme="light">
       <body
         className={`${dmSans.variable} ${geistSans.variable} ${geistMono.variable} antialiased`} // Apply all font variables here
       >

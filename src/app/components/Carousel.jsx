@@ -2,7 +2,7 @@ import React from 'react';
 
 const Carousel = () => {
   return (
-   <div className="flex justify-center mt-[-500]">
+   <div className="flex justify-center min-h-3.5">
         <div className="carousel rounded-box rounded-3xl max-w-6xl carousel-center">
           <div className="carousel-item">
             <img

@@ -1,4 +1,4 @@
-import { DM_Sans } from '@next/font/google';
+import { DM_Sans } from 'next/font/google';
 import localFont from "next/font/local";
 import "./globals.css";
 

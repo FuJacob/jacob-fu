@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ image = "carouselpics/1.jpg", desrc = "Hello", isNew = "false" }) => {
+const Card = ({ image = "carouselpics/1.jpg", title = "Project", subtitle="Subtitle", descr = "Hello", getTag = false, tag="Winner"}) => {
   return (
     <div className="card bg-base-100 w-96 shadow-xl">
       <figure>
@@ -8,10 +8,11 @@ const Card = ({ image = "carouselpics/1.jpg", desrc = "Hello", isNew = "false" }
       </figure>
       <div className="card-body">
         <h2 className="card-title">
-          Shoes!
-            {isNew ? <div className="badge badge-secondary">NEW</div> : null}
+          {title}
+            {getTag ? <div className="badge badge-secondary">{tag}</div> : null}
         </h2>
-        <p>{desrc}</p>
+        <h3 className="card-subtitle font-bold italic text-primary"> {subtitle} </h3>
+        <p>{descr}</p>
         <div className="card-actions justify-end">
           <div className="badge badge-outline">Fashion</div>
           <div className="badge badge-outline">Products</div>

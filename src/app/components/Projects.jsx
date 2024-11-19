@@ -10,28 +10,34 @@ const Projects = () => {
             <Card
               image="anonalyze.png"
               title="AnonAlyze"
-              getTag={true}
-              tag="🏆 Best Secruity Hack"
+              getBadge={true}
+              badge="🏆 Best Secruity Hack"
               subtitle= "CTRL+HACK+DEL Hackathon"
               descr="Created a full-stack web app leveraging OpenAI and Apify APIs to evaluate social media profiles, delivering a safety score and actionable insights to strengthen online security."
+              tag1="JavaScript"
+              tag2 = "HTML/CSS"
             />
           </div>
           <div>
           <Card
-              image="anonalyze.png"
+              image="novelnovels.png"
               title="Novel Novels"
               subtitle="Hack the North Hackathon"
               descr="Created a full-stack web app leveraging OpenAI and Apify APIs to evaluate social media profiles, delivering a safety score and actionable insights to strengthen online security."
+              tag1="JavaScript"
+              tag2 = "HTML/CSS"
             />
           </div>
           <div>
           <Card
-              image="anonalyze.png"
+              image="metroapocalypse.png"
               title="Metro Apocalypse"
-              getTag={true}
-              tag="Top 5 most played games on Modd.io"
+              getBadge={true}
+              badge="Top 5 on Modd.io"
               subtitle=".io Game hosted on Modd.io "
               descr="Created a full-stack web app leveraging OpenAI and Apify APIs to evaluate social media profiles, delivering a safety score and actionable insights to strengthen online security."
+              tag1="JavaScript"
+              tag2 = "HTML/CSS"
             />          </div>
         </div>
       </div>

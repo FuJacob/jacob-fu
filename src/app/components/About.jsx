@@ -1,7 +1,7 @@
 import React from "react";
 const About = () => {
   return (
-    <div className="text-center flex flex-col items-center justify-center space-y-10 mb-32 max-w-2xl mx-auto">
+    <div className="text-center flex flex-col items-center justify-center space-y-10 max-w-2xl min-h-3.5 mx-auto">
       <div>
         <h1 className="text-7xl font-black">About Me</h1>
       </div>

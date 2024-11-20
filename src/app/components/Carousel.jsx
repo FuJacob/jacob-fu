@@ -2,8 +2,8 @@ import React from 'react';
 
 const Carousel = () => {
   return (
-   <div className="flex justify-center items-center min-h-lvh">
-        <div className="carousel rounded-box rounded-3xl max-w-5xl carousel-center">
+   <div className="flex justify-center">
+        <div className="carousel rounded-box rounded-3xl carousel-center">
           <div className="carousel-item">
             <img
               src="/carouselpics/2.jpg"

@@ -3,8 +3,8 @@ import Card from "./Card";
 const Projects = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center space-y-16 min-h-screen">
-        <h1 className="text-7xl font-black text-center">My Projects</h1>
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <h1 className="text-7xl font-black text-center mb-12" id="projects">My Projects</h1>
         <div className="grid grid-cols-3 gap-3">
           <div>
             <Card

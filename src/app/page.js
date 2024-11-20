@@ -7,15 +7,16 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import About from "./components/About";
 import Carousel from "./components/Carousel";
 import Projects from "./components/Projects";
+import Connect from "./components/Connect";
 export default function Home() {
   return (
     <>
       <Navbar />
-            <Hero />
-            <About />
-        <Carousel/>
-        <Projects/>
-        <Footer />
+      <Hero />
+      <About />
+      <Projects />
+      <Connect />
+      <Footer />
     </>
   );
 }

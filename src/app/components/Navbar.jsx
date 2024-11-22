@@ -2,6 +2,7 @@ import React from "react";
 import Resume from "./Resume";
 import ThemeController from "./ThemeController";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "motion/react"
 const Navbar = ({
   title = "Jacob Fu",
   button1 = "Resume",
@@ -59,7 +60,7 @@ const Navbar = ({
         <Resume title="Resume" />
       </div>
     </div>
-  );
+   );
 };
 
 export default Navbar;

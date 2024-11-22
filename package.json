@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.0",
     "@react-spring/parallax": "^9.7.5",
     "@tailwindcss/typography": "^0.5.15",
+    "motion": "^11.11.17",
     "next": "^15.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

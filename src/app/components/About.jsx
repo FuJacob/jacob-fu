@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 const About = () => {
   return (
     <>
-      <div className="text-center flex flex-col items-center justify-center" >
+      <div className="text-center flex flex-col items-center justify-center min-h-screen" >
         <div className="max-w-3xl">
           <h1 className="text-7xl font-black leading-relaxed" id="about">About Me</h1>
           <p className="text-2xl mb-5">

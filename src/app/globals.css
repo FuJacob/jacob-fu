@@ -3,19 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff; /* Light theme background */
+  --foreground: #171717; /* Light theme text */
+  --font-dm-sans: "DM Sans", sans-serif; /* Ensure the font is defined */
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0a0a0a; /* Dark theme background */
+    --foreground: #ededed; /* Dark theme text */
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-dm-sans), sans-serif; /* Set DM Sans as the default font */
+  font-family: var(--font-dm-sans), sans-serif; /* Apply the defined font */
 }

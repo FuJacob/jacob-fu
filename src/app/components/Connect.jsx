@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 const Connect = () => {
   return (
-    <div className="flex flex-col items-center mb-36">
+    <div className="flex flex-col items-center p-24">
       <h1 className="title text-7xl font-black mb-12">Connect with Me!</h1>
       <div className="grid grid-flow-col gap-12 text-center">
         <div>

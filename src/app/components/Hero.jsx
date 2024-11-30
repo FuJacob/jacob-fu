@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="grid hero-content text-center">
           <div className="flex justify-center avatar mb-12">
             <div className="mask mask-squircle w-96">
-              <img src="avatar.jpg" alt="avatar" />
+              <img src="avatar1.jpg" alt="avatar" />
             </div>
           </div>
           <motion.div

@@ -14,7 +14,7 @@ const Navbar = ({
       style={{ zIndex: 5 }}
     >
       <div className="navbar-start">
-        <ThemeController />
+        {/* <ThemeController /> */}
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -51,8 +51,8 @@ const Navbar = ({
               <FaInstagram size={30}/>
             </button>
         </div>
-      <a className="btn" href="#projects">
-      My Projects</a>
+      {/* <a className="btn" href="#projects">
+      My Projects</a> */}
         <a className="btn" href="#about">
           {button2}
         </a>
